@@ -45,6 +45,7 @@ header {
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
+    padding: 5em 10em;
 
 }
 
@@ -60,8 +61,27 @@ h1 {
 }
 
 .placeholder {
-    max-width: 200px;
-    height: 200px;
+    max-width: 50%;
+    height: auto;
+}
+
+.header-info {
+    width: 40%; 
+}
+
+button {
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #2196F3;
+    margin-top: 15px; 
 }
 
 /* FOOTER */
