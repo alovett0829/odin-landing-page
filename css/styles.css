@@ -84,6 +84,37 @@ button {
     margin-top: 15px; 
 }
 
+/* RANDOM INFO */
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.random-info-entries {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto 100px;
+    gap: 50px;
+   }
+
+.random-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    border: 5px solid #1f2937;    
+}
+
+.entry {
+    max-width: 180px;
+}
+
+/* QUOTE */
+
 /* FOOTER */
 
 footer {
